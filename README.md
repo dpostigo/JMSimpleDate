@@ -7,6 +7,6 @@ NSDate and NSDateFormatter wrappers including simplification and convenience met
 
 JMSimpleDate is an ARC project. (http://clang.llvm.org/docs/AutomaticReferenceCounting.html)
 
-## License
+### License
 
 JMSimpleDate is available under the MIT license. See the LICENSE file for more info.
