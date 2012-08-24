@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JMSimpleDateConstants.h"
+#import "NSDate+JMSimpleDate.h"
+#import "NSDateFormatter+JMSimpleDate.h"
 
 @interface JMSimpleDate : NSObject
 

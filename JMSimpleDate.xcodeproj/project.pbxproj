@@ -10,6 +10,9 @@
 		BAC9767215E733690000D627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC9767115E733690000D627 /* Foundation.framework */; };
 		BAC9767715E7336A0000D627 /* JMSimpleDate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BAC9767615E7336A0000D627 /* JMSimpleDate.h */; };
 		BAC9767915E7336A0000D627 /* JMSimpleDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9767815E7336A0000D627 /* JMSimpleDate.m */; };
+		BAC9768115E7339D0000D627 /* NSDate+JMSimpleDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9768015E7339D0000D627 /* NSDate+JMSimpleDate.m */; };
+		BAC9768415E733D80000D627 /* JMSimpleDateConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9768315E733D80000D627 /* JMSimpleDateConstants.m */; };
+		BAC9768715E742E30000D627 /* NSDateFormatter+JMSimpleDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9768615E742E00000D627 /* NSDateFormatter+JMSimpleDate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		BAC9767515E7336A0000D627 /* JMSimpleDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JMSimpleDate-Prefix.pch"; sourceTree = "<group>"; };
 		BAC9767615E7336A0000D627 /* JMSimpleDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMSimpleDate.h; sourceTree = "<group>"; };
 		BAC9767815E7336A0000D627 /* JMSimpleDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMSimpleDate.m; sourceTree = "<group>"; };
+		BAC9767F15E7339D0000D627 /* NSDate+JMSimpleDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JMSimpleDate.h"; sourceTree = "<group>"; };
+		BAC9768015E7339D0000D627 /* NSDate+JMSimpleDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JMSimpleDate.m"; sourceTree = "<group>"; };
+		BAC9768215E733D80000D627 /* JMSimpleDateConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSimpleDateConstants.h; sourceTree = "<group>"; };
+		BAC9768315E733D80000D627 /* JMSimpleDateConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSimpleDateConstants.m; sourceTree = "<group>"; };
+		BAC9768515E742E00000D627 /* NSDateFormatter+JMSimpleDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+JMSimpleDate.h"; sourceTree = "<group>"; };
+		BAC9768615E742E00000D627 /* NSDateFormatter+JMSimpleDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+JMSimpleDate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +84,12 @@
 			children = (
 				BAC9767615E7336A0000D627 /* JMSimpleDate.h */,
 				BAC9767815E7336A0000D627 /* JMSimpleDate.m */,
+				BAC9768215E733D80000D627 /* JMSimpleDateConstants.h */,
+				BAC9768315E733D80000D627 /* JMSimpleDateConstants.m */,
+				BAC9767F15E7339D0000D627 /* NSDate+JMSimpleDate.h */,
+				BAC9768015E7339D0000D627 /* NSDate+JMSimpleDate.m */,
+				BAC9768515E742E00000D627 /* NSDateFormatter+JMSimpleDate.h */,
+				BAC9768615E742E00000D627 /* NSDateFormatter+JMSimpleDate.m */,
 				BAC9767415E7336A0000D627 /* Supporting Files */,
 			);
 			path = JMSimpleDate;
@@ -140,6 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAC9767915E7336A0000D627 /* JMSimpleDate.m in Sources */,
+				BAC9768115E7339D0000D627 /* NSDate+JMSimpleDate.m in Sources */,
+				BAC9768415E733D80000D627 /* JMSimpleDateConstants.m in Sources */,
+				BAC9768715E742E30000D627 /* NSDateFormatter+JMSimpleDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +219,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -213,6 +232,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -235,6 +255,7 @@
 				BAC9767E15E7336A0000D627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
