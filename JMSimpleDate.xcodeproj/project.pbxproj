@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAC9767215E733690000D627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC9767115E733690000D627 /* Foundation.framework */; };
+		BAC9767715E7336A0000D627 /* JMSimpleDate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BAC9767615E7336A0000D627 /* JMSimpleDate.h */; };
+		BAC9767915E7336A0000D627 /* JMSimpleDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9767815E7336A0000D627 /* JMSimpleDate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAC9766C15E733690000D627 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				BAC9767715E7336A0000D627 /* JMSimpleDate.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BAC9766E15E733690000D627 /* libJMSimpleDate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJMSimpleDate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC9767115E733690000D627 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAC9767515E7336A0000D627 /* JMSimpleDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JMSimpleDate-Prefix.pch"; sourceTree = "<group>"; };
+		BAC9767615E7336A0000D627 /* JMSimpleDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMSimpleDate.h; sourceTree = "<group>"; };
+		BAC9767815E7336A0000D627 /* JMSimpleDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMSimpleDate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAC9766B15E733690000D627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC9767215E733690000D627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAC9766315E733690000D627 = {
+			isa = PBXGroup;
+			children = (
+				BAC9767315E733690000D627 /* JMSimpleDate */,
+				BAC9767015E733690000D627 /* Frameworks */,
+				BAC9766F15E733690000D627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAC9766F15E733690000D627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAC9766E15E733690000D627 /* libJMSimpleDate.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAC9767015E733690000D627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAC9767115E733690000D627 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAC9767315E733690000D627 /* JMSimpleDate */ = {
+			isa = PBXGroup;
+			children = (
+				BAC9767615E7336A0000D627 /* JMSimpleDate.h */,
+				BAC9767815E7336A0000D627 /* JMSimpleDate.m */,
+				BAC9767415E7336A0000D627 /* Supporting Files */,
+			);
+			path = JMSimpleDate;
+			sourceTree = "<group>";
+		};
+		BAC9767415E7336A0000D627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAC9767515E7336A0000D627 /* JMSimpleDate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAC9766D15E733690000D627 /* JMSimpleDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC9767C15E7336A0000D627 /* Build configuration list for PBXNativeTarget "JMSimpleDate" */;
+			buildPhases = (
+				BAC9766A15E733690000D627 /* Sources */,
+				BAC9766B15E733690000D627 /* Frameworks */,
+				BAC9766C15E733690000D627 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMSimpleDate;
+			productName = JMSimpleDate;
+			productReference = BAC9766E15E733690000D627 /* libJMSimpleDate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAC9766515E733690000D627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "James Martinez";
+			};
+			buildConfigurationList = BAC9766815E733690000D627 /* Build configuration list for PBXProject "JMSimpleDate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAC9766315E733690000D627;
+			productRefGroup = BAC9766F15E733690000D627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAC9766D15E733690000D627 /* JMSimpleDate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAC9766A15E733690000D627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC9767915E7336A0000D627 /* JMSimpleDate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAC9767A15E7336A0000D627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAC9767B15E7336A0000D627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAC9767D15E7336A0000D627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JMSimpleDate.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMSimpleDate/JMSimpleDate-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BAC9767E15E7336A0000D627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JMSimpleDate.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JMSimpleDate/JMSimpleDate-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAC9766815E733690000D627 /* Build configuration list for PBXProject "JMSimpleDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC9767A15E7336A0000D627 /* Debug */,
+				BAC9767B15E7336A0000D627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC9767C15E7336A0000D627 /* Build configuration list for PBXNativeTarget "JMSimpleDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC9767D15E7336A0000D627 /* Debug */,
+				BAC9767E15E7336A0000D627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAC9766515E733690000D627 /* Project object */;
+}
