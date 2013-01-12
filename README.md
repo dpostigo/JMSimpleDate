@@ -7,6 +7,10 @@ JMSimpleDate
 
 Import `JMSimpleDate.h` and get to work!
 
+### Contributing
+
+Submit a pull request and I'll love you forever.
+
 ### ARC Support
 
 JMSimpleDate is an ARC project. (http://clang.llvm.org/docs/AutomaticReferenceCounting.html)
