@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JMSimpleDate"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "NSDate and NSDateFormatter wrappers including simplification and convenience methods."
   s.homepage     = "https://github.com/dpostigo/JMSimpleDate"
   s.license      = 'BSD'
